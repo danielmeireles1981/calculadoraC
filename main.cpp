@@ -6,22 +6,22 @@ void calcular(float num1, float num2, char operacao) {
     switch (operacao) {
         case '+':
             resultado = num1 + num2;
-        printf("Resultado: %.2f\n", resultado);
-        break;
+            printf("Resultado: %.2f\n", resultado);
+            break;
         case '-':
             resultado = num1 - num2;
-        printf("Resultado: %.2f\n", resultado);
-        break;
+            printf("Resultado: %.2f\n", resultado);
+            break;
         case '*':
             resultado = num1 * num2;
-        printf("Resultado: %.2f\n", resultado);
-        break;
+            printf("Resultado: %.2f\n", resultado);
+            break;
         case '/':
             if (num2 != 0)
                 printf("Resultado: %.2f\n", num1 / num2);
             else
                 printf("Erro: Divisao por zero nao permitida!\n");
-        break;
+            break;
         default:
             printf("Operacao invalida!\n");
     }
